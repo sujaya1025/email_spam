@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title> login form</title>
+        <style>
+         #left{
+            width:50%;
+            height:75%;
+            float:left;
+            background-color:coral;
+         }
+         #right{
+            width:50%;
+            height:75%;
+            float:right;
+            background-color:rgb(112, 163, 197);
+         }
+         img{
+            width:100%;
+            height:100%
+         }
+
+         form{
+          margin-top:15%;
+          margin-left:15%;
+         }
+         input{
+            margin-top:5%;
+            margin-left:5%;
+         }
+         label,input[type=submit],input[type=reset]{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            font-style: oblique;
+         }
+
+        </style>
+    </head>
+    <body style="background-color:rgb(233, 181, 181);margin: 15% 20% 10% 20%">
+        <div id="left"> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxja2uQUZ0lTfcQDy86-hHMT57DvrLbIVdGd9iX_kO3VkSeBK1og72loN9wXaOsDpTWpk&usqp=CAU"/>
+        </div>
+        <div id="right">
+         <form>
+            <label> Username</label>
+            <input type="text" name="username"/>
+            <br>
+
+            <label>Password</label>
+            <input type="password" name="password"/>
+            <br>
+
+            <input type="submit" name="submit" value="Login"/>
+            <input type="reset" name="reset" value="Reset"/>
+         </form>
+        </div>
+    </body>
+</html>
